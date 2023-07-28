@@ -6,7 +6,7 @@ class Animal {
 	makeSound(){
 		console.log("The Siamese makes a sound")
 	}
-	get species(){console.log(this.species)}
+	get species(){console.log(this._species)}
 }
 
 class Dog extends Animal {
