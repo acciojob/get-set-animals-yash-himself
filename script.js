@@ -6,13 +6,14 @@ class Animal {
 	makeSound(){
 		console.log("The Siamese makes a sound")
 	}
+	get species(){console.log(this.species)}
 }
 
 class Dog extends Animal {
 	constructor(species){
 		super(species)
 	}
-	get species(){console.log(this.species)}
+	
 	bark(){
 		console.log("woof")
 	}
